@@ -17,21 +17,29 @@ img {
   align-content: center;
   flex-wrap: wrap;
 justify-content: center;
+margin: 32px;
   
 }
 
 .text{
 display: flex;
 flex-direction: column;
-align-items: flex-end
+flex-wrap: wrap;
+align-self: flex-end;
 justify-content: center;
 }
 
 .top{
   display:flex;
-align-content: center;
-justify-content: center;
+justify-content:center;
+gap:52px;
 
+}
+
+.bottom{
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
 }
 
 /* do not edit this footer */
