@@ -34,6 +34,7 @@ input {
   flex-wrap: wrap;  
   align-content: center;
   justify-content: center;
+  flex: 3;
 }
 
 .buttons{
@@ -49,3 +50,45 @@ input {
   align-content: center;
   justify-content: center;
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+
+.header .left-links
+{
+  margin: 20px;
+}
+
+.header .right-links
+{
+  margin: 20px;
+  
+  
+
+}
+
+ul
+{
+list-style-type: none;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #6b7280;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  background-color:#4b5563;
+  flex: 1 0 auto;
+
+}
+
