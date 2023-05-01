@@ -8,6 +8,7 @@ body {
 }
 
 img {
+ display: flex;
   width: 600px;
 }
 
@@ -19,9 +20,32 @@ button {
 }
 
 input {
+  display: flex;
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;  
+  align-content: center;
+  justify-content: center;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.input{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
