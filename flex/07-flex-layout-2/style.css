@@ -31,6 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+ 
 }
 
 .card {
@@ -38,6 +39,24 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
  
+}
+
+.content{
+  display: flex;
+}
+
+ul {
+display: flex;
+flex-direction: column;
+gap: 20px;
+list-style-type: none
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
